@@ -4,16 +4,41 @@
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
   }
-  
-  .card-header {
+  .topic-tag{
+    font-size:large;
+    margin-left: 0%;
+    color: white;
+    background-color: rgb(172, 95, 255) ;
+    padding: 0.35%;
+    border-radius:0.4cap;
+    position: absolute;
+    right: 20%;
+    top: 18%;
+  }
+  .card-
+   {
     padding: 16px;
     border-bottom: 1px solid #e0e0e0;
   }
-  
+  .like-button, .comment-button {
+    background-color: rgb(172, 95, 255);
+    border: none;
+    margin: 1%;
+    padding: 8px 12px;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 4px;
+    transition: background-color 0.3s ease;
+    float: left; 
+}
+
   .header-title {
-    font-size: 18px;
+    font-size: 25px;
+    color: white;
     font-weight: 600;
     margin: 0;
+    background-color: #ffffff00;
+    
   }
   
   .card-content {
@@ -23,14 +48,24 @@
   .post-textarea {
     width: 100%;
     min-height: 80px;
-    padding: 8px;
-    border: 1px solid #e0e0e0;
-    border-radius: 4px;
+    padding: 10px;
+    color: whitesmoke;
+    border: 1px solid rgba(0, 0, 0, 0.659); 
+    background: #25273b;
+    backdrop-filter: blur(50px); /* Glass-like blur effect */
+    border-radius: 8px; 
     resize: vertical;
     font-family: inherit;
-    font-size: 14px;
-  }
-  
+    font-size: 20px;
+     
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); 
+    transition: box-shadow 0.3s ease, background 0.3s ease; /* Smooth transitions */
+}
+.post-textarea:focus {
+  background: #202238;  /* Brighten on focus */
+  box-shadow: 0 6px 8px rgb(121, 121, 150); /* Enhanced shadow on focus */
+  outline: none; /* Remove default outline */
+}
   .card-footer {
     padding: 16px;
     border-top: 1px solid #e0e0e0;
@@ -38,8 +73,8 @@
   }
   
   .post-button {
-    background-color: #0070f3;
-    color: #ffffff;
+    background-color: rgb(172, 95, 255);
+    color: #000000;
     border: none;
     border-radius: 4px;
     padding: 8px 16px;
@@ -50,5 +85,5 @@
   }
   
   .post-button:hover {
-    background-color: #0060df;
+    background-color: rgb(145, 48, 250);
   }

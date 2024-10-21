@@ -10,6 +10,7 @@ const CreatePostCard = ({ post, setPost, onPostSubmit }) => {
     <div className="card">
       <div className="card-header">
         <h2 className="header-title">Create a Post</h2>
+        <span className="topic-tag">#topic</span> {/* Added topic tag */}
       </div>
       <div className="card-content">
         <textarea
@@ -24,6 +25,11 @@ const CreatePostCard = ({ post, setPost, onPostSubmit }) => {
         <button className="post-button" onClick={handlePostSubmit}>
           Post
         </button>
+        {/* Added Like and Comment buttons */}
+        <div className="interaction-buttons">
+          <button className="like-button">👍</button>
+          <button className="comment-button">Comment</button>
+        </div>
       </div>
     </div>
   );

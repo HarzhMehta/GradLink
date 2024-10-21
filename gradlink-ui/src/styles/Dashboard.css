@@ -10,8 +10,8 @@ box-shadow: 0 1px 3px 0 rgba(0, 0, 0, 0.1), 0 1px 2px 0 rgba(0, 0, 0, 0.06);
 
 .header-content{
     display: flex; 
-padding-top: 1rem;
-padding-bottom: 1rem; 
+padding-top: 0rem;
+padding-bottom: 0rem; 
 padding-left: 1rem;
 padding-right: 1rem; 
 justify-content: space-between; 
@@ -35,10 +35,11 @@ padding-right: 2rem;
 align-items: center; 
 }
 
-.title {
-    font-size: 1.5rem;
+.title{
+font-size: 2em;
 line-height: 2rem; 
 font-weight: 700; 
+font-style:bold;
 }
 
 .navbar{
@@ -62,6 +63,7 @@ max-width: 80rem;
 
 .cards{
     margin-top: 1.5rem; 
+    
 }
 
 

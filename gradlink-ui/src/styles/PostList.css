@@ -5,19 +5,25 @@
   }
   
   .card {
-    background-color: #ffffff;
+    background-color: #212337;
     border-radius: 8px;
+    padding: 1%;
     box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
     overflow: hidden;
   }
+
   
   .card-header {
     padding: 16px;
-    border-bottom: 1px solid #e0e0e0;
+    border-radius:0.7cap;
+    border-bottom: 1px solid #ffffff;
+    background-color: #212337;
   }
   
   .card-content {
     padding: 16px;
+    color: whitesmoke;
+    
   }
   
   .card-footer {
@@ -61,11 +67,12 @@
   .author-name {
     font-weight: 600;
     margin: 0;
+    color: white;
   }
   
   .post-timestamp {
-    font-size: 12px;
-    color: #6b7280;
+    font-size: 15px;
+    color: #d5d5d5;
     margin: 0;
   }
   
@@ -79,6 +86,7 @@
     border-radius: 4px;
     font-size: 14px;
     font-weight: 500;
+    color: #d1d5db;
     cursor: pointer;
     transition: background-color 0.2s;
   }
@@ -86,11 +94,11 @@
   .button.outline {
     background-color: transparent;
     border: 1px solid #d1d5db;
-    color: #374151;
+    color: #ffffff;
   }
   
   .button.outline:hover {
-    background-color: #f3f4f6;
+    background-color: #eeeeef;
   }
   
   .button.sm {
