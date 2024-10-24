@@ -37,7 +37,6 @@ const PostCard = ({ post }) => (
       <div className="button-container">
         <Button variant="outline" size="sm">Like</Button>
         <Button variant="outline" size="sm">Comment</Button>
-        <Button variant="outline" size="sm">Share</Button>
       </div>
     </div>
   </div>
